@@ -1,15 +1,7 @@
-test_str = input("enter the string")
-  
-# using naive method to get count 
-# of each element in string 
-all_freq = {}
-  
-for i in test_str:
-    if i in all_freq:
-        all_freq[i] += 1
-    else:
-        all_freq[i] = 1
-  
-# printing result 
-print ("Count of all characters in GeeksforGeeks is :\n "
-                                        +  str(all_freq))
+num = int(input("enter the rows"))
+
+for i in range(1,num+1):
+  for j in range(0,i):
+    print(i*2,end="")
+  print()
+    
