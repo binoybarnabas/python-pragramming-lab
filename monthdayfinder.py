@@ -4,3 +4,7 @@ month_days = {'january':31,'febrauary':28,'march':31,'april':30,'may':31,'june':
 month = input("enter the month")
 
 print(month_days[month])
+
+sortedlist1 = sorted(month_days.items())
+sortedlist2 = sorted(month_days.items(),reverse=True)
+print(sortedlist)
