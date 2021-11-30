@@ -1,3 +1,8 @@
-s = input("enter the string")
-last = s[-3:]
-print(last)
+test_string = input("enter the string")
+all_freq = {}
+for i in test_str:
+  if i in all_freq:
+    all_freq[i]+=1
+  else:
+    all_freq[i]=1
+print("count of all characters in",test_string,"is:",str(all_freq))
