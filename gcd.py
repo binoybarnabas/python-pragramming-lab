@@ -15,5 +15,5 @@ a,b = int(input("enter the value of a")),int(input("enter the value of a"))
 gcdval = gcd(a,b)
 if gcdval:
     print("gcd(",a,",",b,")=",gcdval)
-else
+else :
     print("not found")
