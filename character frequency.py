@@ -1,6 +1,6 @@
 test_string = input("enter the string")
 all_freq = {}
-for i in test_str:
+for i in test_string:
   if i in all_freq:
     all_freq[i]+=1
   else:
