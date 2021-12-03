@@ -3,7 +3,7 @@
 import math
 
 start,limit = int(input("4 digit number start:")),int(input("4 digit number limit:"))
-even = [2,4,6,8,0]
+
 main = []
 count = 0
 for i in range(start,limit,1):
